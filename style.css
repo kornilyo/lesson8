@@ -1,0 +1,237 @@
+/* CSS Normalize */
+@import 'reset.css';
+
+
+/* Box-sizing border-box */
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+body {
+    font-size: 14px;
+    width: 90vw;
+}
+
+h1 {
+    font-size:  16px;
+    text-decoration: none;
+    color: #34AC98;
+}
+p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+a {
+    color: #34AC98;
+}
+.blog__post--date {
+    color: #aaa;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+/*fullpage container*/
+.fullpage {
+    border: 1px solid #000;
+    background: #ffffff;
+    
+    }
+.content {    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+/* the navigation button+logo */
+.nav {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    }
+
+/* the logo */
+.nav__logo {
+    background: url(food-sense3.png);
+    margin: 10px 0;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+    
+
+/* Navigation */
+.nav_titles {
+    display: flex;
+    
+    width: 100vw;
+    justify-content: space-between;
+    border-bottom: 1px gray solid;
+    width: 100vw;
+    
+    }
+.nav__title {
+    list-style: none;
+    padding: 0 0 10px 0;
+    font-size: 12px;
+    
+    }
+   
+
+/* hero image section */
+
+
+.hero__image {
+    background: url(foodsense.jpg);
+    height:300px;
+    background-position: 50%;
+}
+.hero__text--h2 {
+    position: relative;
+    top: -90px;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+}
+.hero__text--h3 {
+    position: relative;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    font-size: 11px;
+}
+.hero__text--span_h2 {
+    background: rgb(255, 255, 255); /* fallback color */
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px; 
+    color: #313131;
+    font-family: serif;
+}
+.hero__text--span_h3 {
+    background: rgb(255, 255, 255); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+    color: white;
+    font-family: serif;
+}
+
+/* blog section */
+.blog {
+    width:278px;
+}
+.blog__post {
+/*     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:278px; */
+    
+}
+
+.blog__post--image {
+    width: 278px;
+    height: 192px;
+    margin: 24px 0;
+    padding: 9px;
+    border: 1px solid #E5E5E5;
+    box-shadow: 1px 1px 3px #F5F5F5;    
+}
+.blog__post1--image {
+    background: url(cookbooks_blog.jpg);
+}
+.blog__post2--image {
+    background: url(SweetPotatoChips.jpg);
+}.blog__post3--image {
+    background: url(Pinterest_Page_featured.png);
+}.blog__post4--image {
+    background: url(Adithi_Dinner_blog.jpg);
+}
+
+
+/* newslatter section */
+.newsletter {
+    border-top: 1px dashed #999;
+    border-bottom: 1px dashed #999;
+}
+
+.newsletter__explain {
+    display: flex;
+    flex-wrap: nowrap;
+    /* background: #fff url() 0 0 no-repeat; */
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.newsletter__explain--icon {
+    align-self: center;
+    background: url(icon-mailinglist-32.png);
+    width: 32px;
+    height: 32px;
+
+    }
+
+.newsletter__explain--text {
+    font: 10px;
+    flex-grow: 60%;
+    width: 80vw;
+    font-size: 11px;
+    font-family: serif
+}
+.newsletter__form {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.newsletter__form--input {
+    width: 160px;
+    /* padding: 0 10px 0 0; */
+}
+.newsletter__form--button {
+    margin: 0 0 0 10px
+}
+
+/* footer elements */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+/* legal list  */
+.legal  {
+   font-size: 10px; 
+}
+
+/* legal list items */
+.social_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 33vw;
+    
+}
+
+
+/* social icons list items */
+.social_list--twitter {
+     background: url(icon-twitter.png);
+    background-position: top center;
+    width: 36px;
+    height: 30px;
+    
+}
+
+.social_list--facebook {
+     background: url(icon-facebook.png);
+    background-position: top center;
+    width: 36px;
+    height: 30px;
+    
+}
+.social_list--rss {
+     background: url(icon-rss.png);
+    background-position: top center;
+    width: 36px;
+    height: 30px;
+    
+}
